@@ -36,7 +36,7 @@
                 @csrf
                 <div class="card-body">
                     <div class="form-group">
-                      <label for="name">Name</label>
+                      <label for="name">Full Name</label>
                       <input type="text" class="form-control" id="name" name="name" placeholder="Enter Name" value="{{ old($user->name) != null ? old($user->name) : $user->name }}">
                       <div style="width: 100%;margin-top: 0.25rem;font-size: 80%;color: #fd397a;">{{ $errors->first('name')}}</div>
                     </div>
