@@ -41,7 +41,7 @@
                       <div style="width: 100%;margin-top: 0.25rem;font-size: 80%;color: #fd397a;">{{ $errors->first('name')}}</div>
                     </div>
                     <div class="form-group">
-                      <label for="email">Email address</label>
+                      <label for="email">Email</label>
                       <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" value="{{ old($user->email) != null ? old($user->email) : $user->email }}">
                       <div style="width: 100%;margin-top: 0.25rem;font-size: 80%;color: #fd397a;">{{ $errors->first('email')}}</div>
                     </div>
